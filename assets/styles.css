@@ -1,0 +1,28 @@
+body {
+  background-color: whitesmoke;
+}
+
+body button {
+  cursor: pointer;
+}
+
+body button img {
+  rotate: 135deg;
+}
+
+@media only screen and (max-width: 576px) {
+  body button {
+    width: 100%;
+  }
+}
+
+body .card {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background-color: white;
+}
+
+body .card span {
+  margin-left: 0.25rem;
+}
+/*# sourceMappingURL=styles.css.map */

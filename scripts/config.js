@@ -1,0 +1,4 @@
+const QUIZ_SIZE = 15
+const SORTING_ENABLED = true
+
+export { QUIZ_SIZE, SORTING_ENABLED }

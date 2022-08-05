@@ -1,0 +1,27 @@
+body {
+  background-color: whitesmoke;
+
+  button {
+    cursor: pointer;
+
+    img {
+      rotate: 135deg;
+    }
+  }
+
+  @media only screen and (max-width: 576px) {
+    button {
+      width: 100%;
+    }
+  }
+
+  .card {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background-color: white;
+
+    span {
+      margin-left: 0.25rem;
+    }
+  }
+}
